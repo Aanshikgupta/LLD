@@ -1,15 +1,14 @@
 package strategydesignpattern.withsdp;
 
-
 public class Main {
     public static void main(String[] args) {
-        PassengerVehicle passengerVehicle=new PassengerVehicle();
+        Vehicle passengerVehicle=new PassengerVehicle();
         passengerVehicle.drive();
 
-        SportsVehicle sportsVehicle = new SportsVehicle();
+        Vehicle sportsVehicle = new SportsVehicle();
         sportsVehicle.drive();
 
-        OffRoadVehicle offRoadVehicle = new OffRoadVehicle();
+        Vehicle offRoadVehicle = new OffRoadVehicle();
         offRoadVehicle.drive();
     }
 }

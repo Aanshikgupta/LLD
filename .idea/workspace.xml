@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58605e9e-ae75-4fcb-9974-31e3aa2c3123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategydesignpattern/withoutsdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategydesignpattern/withoutsdp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategydesignpattern/withsdp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategydesignpattern/withsdp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.strategydesignpattern.withoutsdp.Main.executor": "Run",
+    "Application.strategydesignpattern.withsdp.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -61,7 +56,7 @@
       <recent name="strategydesignpattern.withsdp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.strategydesignpattern.withoutsdp.Main">
+  <component name="RunManager" selected="Application.strategydesignpattern.withsdp.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LLD" />
@@ -82,8 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="strategydesignpattern.withsdp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategydesignpattern.withsdp.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategydesignpattern.withsdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.strategydesignpattern.withsdp.Main" />
         <item itemvalue="Application.strategydesignpattern.withoutsdp.Main" />
         <item itemvalue="Application.Main" />
       </list>
